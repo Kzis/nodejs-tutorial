@@ -1,16 +1,16 @@
 # nodejs-tutorial
 for knowledge sharing
 
-app
-│   index.js        # Entry point for application
-└───config          # Application environment variables and secrets
-└───controllers     # Express controllers for routes, respond to client requests, call services
-└───loaders         # Handles all startup processes
-└───middlewares     # Operations that check or maniuplate request prior to controller utilizing
-└───models          # Database models
-└───routes          # Express routes that define API structure
-└───services        # Encapsulates all business logic
-└───test            # Tests go here
+app <br />
+│   index.js        # Entry point for application  <br />
+└───config          # Application environment variables and secrets  <br />
+└───controllers     # Express controllers for routes, respond to client requests, call services  <br />
+└───loaders         # Handles all startup processes  <br />
+└───middlewares     # Operations that check or maniuplate request prior to controller utilizing  <br />
+└───models          # Database models  <br />
+└───routes          # Express routes that define API structure  <br />
+└───services        # Encapsulates all business logic  <br />
+└───test            # Tests go here  <br />
 
  ```
     docker-compose build
